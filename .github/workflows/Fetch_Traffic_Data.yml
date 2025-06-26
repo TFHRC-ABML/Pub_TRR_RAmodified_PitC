@@ -3,7 +3,7 @@ name: Fetch Traffic Data for Pub_TRR_RAmodified_PitC
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs daily at midnight UTC
+    - cron: "0 0 * * 1"   # Runs weekly at midnight UTC every Monday
   workflow_dispatch:      # Allows manual triggering
 
 jobs:
